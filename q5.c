@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n, i;
-    unsigned long long fact = 1;
+    int fact = 1;
     printf("Enter an integer: ");
     scanf("%d", &n);
 
@@ -12,7 +12,7 @@ int main() {
         for (i = 1; i <= n; ++i) {
             fact *= i;
         }
-        printf("Factorial of %d = %llu", n, fact);
+        printf("Factorial of %d = %d", n, fact);
     }
 
     return 0;
